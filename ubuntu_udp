@@ -1,3 +1,11 @@
+#!/bin/bash
+#Script Variables
+DOMAIN=admin-boyes.com
+CF_ID=ericlaylay@gmail.com
+CF_KEY=267f2cf11375260fa526109dcb9c630697815
+CF_ZONE=ed5388f45740be5403f682843198efcd
+MYIP=$(wget -qO- icanhazip.com);
+server_ip=$(curl -s https://api.ipify.org)
 timedatectl set-timezone Asia/Riyadh
 
 install_require () {
